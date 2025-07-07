@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2016",               // Supports ES6 features like let, const, arrow functions
-    "module": "commonjs",             // Required for Node.js compatibility
-    "esModuleInterop": true,          // ✅ Enables default imports from CommonJS modules like 'prompt-sync'
-    "lib": ["es2015", "dom"],         // Supports modern JS features and browser DOM APIs
-    "strict": true,                   // Enables all strict type-checking options
-    "types": ["node"]                 // Includes Node.js type definitions
+    "target": "ES2020",         
+    "module": "ESNext",         
+    "moduleResolution": "Node", 
+    "lib": ["ESNext", "DOM"],   
+    "allowJs": true,
+    "outDir": "dist",           
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
   }
 }
